@@ -42,15 +42,24 @@ st.markdown("---")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.info("### 🖥️ Live Production Application")
-    st.write("Access the fully compiled, active full-stack interface running global resource lease locks and dynamic tab cross-calculations.")
-    # Connected directly to your primary deployment tracking url
-    st.link_button("🚀 Open Production Site Link", "https://github.com/Artnd342/Enterprise-Resource-Mesh")
+    st.info("### 🖥️ Local Frontend Application")
+    st.write("Launch your compiled full-stack interface cluster running on your local machine development ecosystem.")
+    # Points directly to your local Vite React server
+    st.link_button("🚀 Open Local React App", "http://localhost:5173")
 
 with col2:
     st.success("### 📂 Open-Source Core Ledger Repository")
     st.write("Review the comprehensive code distribution ledger containing our React interfaces, protected backend API routers, and optimized scheduling schemas.")
     st.link_button("📦 Inspect GitHub Codebase", "https://github.com/Artnd342/Enterprise-Resource-Mesh")
+
+st.markdown("---")
+
+# --- LIVE EMBEDDED LOCAL APPLICATION MATRIX ---
+st.subheader("🖥️ Live Local Interface Node")
+st.markdown("Rendering the active local React deployment interface frame directly below:")
+
+# Seamless iframe integration for Dashboard.jsx streaming over local port 5173
+st.components.v1.iframe("http://localhost:5173", height=600, scrolling=True)
 
 st.markdown("---")
 
