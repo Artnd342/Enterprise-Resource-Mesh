@@ -1,3 +1,6 @@
+# ⚡ ApartmentLink: Enterprise Resource Mesh Control Grid
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://enterprise-resource-mesh-8vmmetc3om4sxtnvwpvfcb.streamlit.app/)
 # 🌐 Distributed Resource Mesh Control Panel (ApartmentLink Engine)
 
 The Distributed Resource Mesh Control Panel is an enterprise-grade, full-stack infrastructure network designed for real-time asset lease allocation and transactional lock management. Engineered with a completely decoupled architecture, the platform handles the complex orchestration of real-time multi-tenant resource streams while enforcing strict, atomic database-level concurrency rules to eliminate systemic race conditions and data anomalies.
